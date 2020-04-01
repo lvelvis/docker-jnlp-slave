@@ -6,7 +6,7 @@ ARG version
 MAINTAINER lvelvis<liukui@ztgame.com>
 LABEL Description="golang-1.13 with jnlp-slave" Vendor="jnlp-slave" Version="$version"
 
-ARG user=jenkins
+ARG user=root
 
 USER root
 RUN useradd jenkins &&\ 
